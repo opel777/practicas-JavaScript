@@ -29,4 +29,5 @@ horaApertura = ([0,6].includes(dia)) ? 9 :11
 // }
 
 mensaje = (horaActual >= horaApertura) ?'Esta Abierto' : `esta Cerrado,hoy abrimos a las ${horaApertura}`
+
 console.log({horaApertura,mensaje})
